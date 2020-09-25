@@ -1,0 +1,10 @@
+Flask==0.12.2
+urllib3==1.22
+requests==2.18.4
+Flask-Cors==3.0.2
+ibm-ai-openscale==2.1.21
+numpy==1.16.1
+pandas==0.22.0
+ibm-cos-sdk==2.5.1
+ibm-cos-sdk-core==2.5.1
+ibm-cos-sdk-s3transfer==2.5.1

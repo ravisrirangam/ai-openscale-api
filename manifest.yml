@@ -1,0 +1,6 @@
+---
+applications:
+- name: ai-openscale-api
+  route: api-openscale
+  memory: 512M
+  instances: 1
