@@ -1,6 +1,5 @@
 FROM python:3.6
 LABEL maintainer="Ravi Kumar Srirangam"
-RUN apt-get update
 RUN mkdir /app
 WORKDIR /app
 COPY . /app
