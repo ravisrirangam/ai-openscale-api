@@ -44,9 +44,9 @@ def limit_content_length(max_length):
 
 def getScoringId(subscriptionid):
     WOS_CREDENTIALS = {
-        "username": "ravi",
-        "password": "RsR1r8mg",
-        "url": "https://cpdga-cpd-cpdga.datasquad-cpd30-292192-7ec5d722a0ab3f463fdc90eeb94dbc70-0000.us-south.containers.appdomain.cloud"
+        "username": 123,
+        "password": 456,
+        "url": "https://cpdga-appdomain.cloud"
     }
     #return "a123"
     ai_client = APIClient4ICP(WOS_CREDENTIALS)
@@ -58,9 +58,9 @@ def getScoringId(subscriptionid):
 
 def explain(subscriptionid, transactionid):
     WOS_CREDENTIALS = {
-        "username": "ravi",
-        "password": "RsR1r8mg",
-        "url": "https://cpdga-cpd-cpdga.datasquad-cpd30-292192-7ec5d722a0ab3f463fdc90eeb94dbc70-0000.us-south.containers.appdomain.cloud"
+        "username": 123,
+        "password": 456,
+        "url": "https://cpdga.appdomain.cloud"
     }
     ai_client = APIClient4ICP(WOS_CREDENTIALS)
     subscription = ai_client.data_mart.subscriptions.get(subscriptionid)
